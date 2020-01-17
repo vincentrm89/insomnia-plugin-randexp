@@ -1,0 +1,32 @@
+{
+  "name": "insomnia-plugin-randexp",
+  "version": "1.0.0",
+  "description": "A random data generator wrapper plugin for Insomnia using http://fent.github.io/randexp.js/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentrm89/insomnia-plugin-randexp.git"
+  },
+  "keywords": [
+    "insomnia",
+    "random",
+    "regex"
+  ],
+  "author": "Vincent Rios-Manno (https://github.com/vincentrm89)",
+  "contributors": [],
+  "license": "MIT",
+  "insomnia": {
+    "name": "RandExp",
+    "description": "A random data generator wrapper plugin for Insomnia using http://fent.github.io/randexp.js/"
+  },
+  "bugs": {
+    "url": "https://github.com/vincentrm89/insomnia-plugin-randexp/issues"
+  },
+  "homepage": "https://github.com/vincentrm89/insomnia-plugin-randexp#readme",
+  "dependencies": {
+    "randexp": "^0.5.3"
+  }
+}
